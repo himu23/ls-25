@@ -1,0 +1,62 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.5;
+    padding: 1rem; 
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between; /* or space-around for experiment */
+  background: #f8f8f8;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.main-nav a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between; /* Experiment: try space-around too */
+}
+.card {
+  flex: 1 1 180px; /* reduced from 280px */
+  max-width: 200px; /* set a max width for smaller card */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 1rem;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+.card__image { width: 100%; height: auto; margin-bottom: 0.5rem; }
+.card__title { font-size: 1.25rem; margin: 0.5rem 0 0.25rem; }
+.card__desc { font-size: 1rem; margin: 0.25rem 0 0.5rem; }
+@media (max-width: 600px) {
+  .card { flex: 1 1 90%; max-width: 95%; }
+}
