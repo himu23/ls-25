@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unit Converter</h1>
+
+    <div class="converter">
+      <label for="conversionType">Select Conversion:</label>
+      <select id="conversionType">
+        <option value="cmToIn">Centimeter to Inch</option>
+        <option value="inToCm">Inch to Centimeter</option>
+        <option value="kgToLb">Kilogram to Pound</option>
+        <option value="lbToKg">Pound to Kilogram</option>
+      </select>
+
+      <input type="number" id="inputValue" placeholder="Enter value" />
+      <button id="convertBtn">Convert</button>
+
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
