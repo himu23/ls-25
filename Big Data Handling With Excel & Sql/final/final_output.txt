@@ -1,0 +1,22 @@
+Charlie
+Alice
+Kafka on the Shore|1
+J.K. Rowling
+Haruki Murakami
+Dystopian|1
+Fantasy|1
+Fiction|3
+Romance|2
+Satire|1
+Thriller|2
+Graham Zusi|California|Nail Knite|Paris|0.13
+Julian Green|London|Nail Knite|Paris|0.13
+Jozy Altidor|Moscow|Paul Adam|Rome|0.13
+Graham Zusi|California|70001|2012-10-05|150.5
+Brad Guzan|London|70009|2012-09-10|270.65
+Nick Rimando|New York|70002|2012-10-05|65.26
+Geoff Cameron|Berlin|70004|2012-08-17|110.5
+Graham Zusi|California|70007|2012-09-10|948.5
+Brad Davis|New York|70005|2012-07-27|2400.6
+Nick Rimando|New York|70008|2012-09-10|5760.0
+Fabian Johnson|Paris|70010|2012-10-10|1983.43
